@@ -1,0 +1,13 @@
+{application, autorization,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { autorization_app, []}},
+  {modules,[]},
+  {env, []}
+ ]}.
