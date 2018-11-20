@@ -7,6 +7,11 @@
                   kernel,
                   stdlib
                  ]},
+  {env,[
+        {token, "702014129:AAEmJdQQhEm8oGrh0Ai3szKUCQqVul-T2qE"},
+        {ip, {127,0,0,1}},
+        {port, 7770}
+      ]},
   {mod, { autorization_app, []}},
   {modules,[]},
   {env, []}
