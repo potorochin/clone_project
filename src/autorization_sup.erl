@@ -38,6 +38,7 @@ init([]) ->
     httpc:set_options([{proxy, {{"proxy.pbank.com.ua", 8080}, ["localhost"]}}]),
 	io:format("~n~nSupervisor Start~n~n"),
 
+
 	SupSpec =  {          % Global supervisor options
       one_for_all,        % - use the one-for-one restart strategy
       100,               % - and allow a maximum of 1000 restarts

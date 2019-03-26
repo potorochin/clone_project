@@ -5,7 +5,10 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  sasl,
+                  syntax_tools,
+                  compiler
                  ]},
   {env,[
         {token, "702014129:AAEmJdQQhEm8oGrh0Ai3szKUCQqVul-T2qE"},

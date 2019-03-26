@@ -81,7 +81,8 @@ handle_info({get_me, Method}, State) ->
 
     {noreply, State}; 
 
-handle_info(_Info, State) ->    
+handle_info(Info, State) ->  
+   io:format("Unknown Comand ~n~p~n", [Info]),
 
     {noreply, State}.          
 
